@@ -1,0 +1,126 @@
+/* Header part start */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+.logo{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   margin-left: 10px;
+   margin-top: 10px;
+   padding: 10px;
+
+}
+.navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 300px;
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: #227093;
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ffffff;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+   
+
+}
+.navbar ul li a{
+    color: rgb(248, 246, 246);
+    text-decoration: none;
+    
+   
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover>ul{
+    display: block;
+}
+/* Header part end */
+
+/*form design start*/
+.form1{
+    background-color: crimson;
+    color: #fff;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    font-size: 24px;
+    margin: 0px auto;
+    padding: 50px 90px;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow:2px 3px 5px 0px rgba(0,0,0,0.69) ;
+}
+.form1 input{
+    padding: 5px 50px;
+    border-color:crimson;
+    border-radius: 50px;
+}
+.form .btn1{
+font-weight: bold;
+}
+
+
+
+
+/* footer part start */
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(29, 27, 27);
+    color: #ffffff;
+    width: 100%;
+}
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text p{
+    width: 600px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top: -20px;
+}
+.icon i{
+    font-size: 30px;
+    position: relative;
+    top: -15px;
+    padding: 10px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    font-size: 20px;
+    background-color: black;
+}# first-project
